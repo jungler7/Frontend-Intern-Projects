@@ -1,16 +1,28 @@
-function addTask() {
-  let input = document.getElementById("taskInput");
-  let taskText = input.value;
+const taskList = document.getElementById("taskList");
 
+function addTask() {
+  const input = document.getElementById("taskInput");
+  const taskText = input.value.trim();
   if (taskText === "") return;
 
-  let li = document.createElement("li");
+  const li = document.createElement("li");
   li.textContent = taskText;
 
   li.onclick = function () {
     li.style.textDecoration = "line-through";
   };
 
-  document.getElementById("taskList").appendChild(li);
+  taskList.appendChild(li);
+  saveTasks();
   input.value = "";
 }
+
+function saveTasks() {
+  localStorage.setItem("tasks", taskList.innerHTML);
+}
+
+function loadTasks() {
+  taskList.innerHTML = localStorage.getItem("tasks") || "";
+}
+
+loadTasks();
