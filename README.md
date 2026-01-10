@@ -6,9 +6,7 @@ HTML, CSS, and JavaScript
 The focus of these projects is on clean structure, simple logic, and
 readable code.
 
-<a href="https://github.com/jungler7/Frontend-Intern-Projects" target="_blank">
-  View Source Code on GitHub
-</a>
+https://jungler7.github.io/Frontend-Intern-Projects/
 
 
 ---
