@@ -6,9 +6,8 @@ HTML, CSS, and JavaScript
 The focus of these projects is on clean structure, simple logic, and
 readable code.
 
-## Live Demo
-- Portfolio Website: https://jungler7.github.io/Frontend-Intern-Projects/portfolio/
-- To-Do List: https://jungler7.github.io/Frontend-Intern-Projects/todo-app/
+🔗 https://github.com/jungler7/Frontend-Intern-Projects
+
 
 ---
 
