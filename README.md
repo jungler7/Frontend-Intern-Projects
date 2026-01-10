@@ -8,7 +8,6 @@ readable code.
 
 🔗 https://github.com/jungler7/Frontend-Intern-Projects
 
-
 ---
 
 ## Projects Included
