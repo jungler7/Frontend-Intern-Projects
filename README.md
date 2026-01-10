@@ -6,7 +6,7 @@ HTML, CSS, and JavaScript
 The focus of these projects is on clean structure, simple logic, and
 readable code.
 <a href="portfolio/index.html">Portfolio Website</a>
-
+<a href="todo/index.html">To-Do List App</a>
 
 ---
 
